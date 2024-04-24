@@ -1,0 +1,37 @@
+_id: req_fa94377d0b294a1b8587b142d2a525c8
+type: Request
+parentId: fld_00d5a47b38a0401798a6ef06b209acd1
+modified: 1712182526451
+created: 1712182485655
+url: https://vendi-api.onrender.com/customers/9
+name: update
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": 9,
+    	"company_id": 1,
+    	"name": "Barao",
+    	"tax_number": "03109955154568",
+    	"phone": "",
+    	"email": "",
+    	"observation": "",
+    	"address_id": null
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication: {}
+metaSortKey: -1712013411505.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

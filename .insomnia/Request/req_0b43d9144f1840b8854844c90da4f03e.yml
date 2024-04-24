@@ -1,0 +1,60 @@
+_id: req_0b43d9144f1840b8854844c90da4f03e
+type: Request
+parentId: fld_3352598d4b734833a49b6bb8bb94bf28
+modified: 1712350092674
+created: 1712349670683
+url: https://vendi-api.onrender.com/sales
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "company_id": 1,
+        "date": "2024-04-05",
+        "discount": 10.00,
+        "discount_percentage": 5.00,
+        "shipping_cost": 5.00,
+        "customer_id": 1,
+        "subtotal": 100.00,
+        "total": 95.00,
+        "status": "Completed",
+        "sale_items": [
+            {
+                "product_id": 2,
+                "original_price": 50.00,
+                "price": 45.00,
+                "quantity": 2
+            },
+            {
+                "product_id": 3,
+                "original_price": 50.00,
+                "price": 45.00,
+                "quantity": 1
+            }
+        ],
+        "payments": [
+            {
+                "payment_method_id": 1,
+                "value": 95.00,
+                "installments": 1,
+                "installment_value": 95.00
+            }
+        ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication: {}
+metaSortKey: -1712349670683
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

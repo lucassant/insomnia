@@ -1,0 +1,23 @@
+_id: req_aa22d196abcf4a388be21dedb0486333
+type: Request
+parentId: fld_b73dfd8233594a1db48b8028b60dda51
+modified: 1712200920601
+created: 1712200907200
+url: https://vendi-api.onrender.com/address/17
+name: delete
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication: {}
+metaSortKey: -1712099146010.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

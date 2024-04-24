@@ -1,0 +1,33 @@
+_id: req_60bff4e385ce4bf09c89998030930cae
+type: Request
+parentId: fld_1d41eae9d4164db5a74c7df78a9ed018
+modified: 1712356370240
+created: 1712242246519
+url: https://vendi-api.onrender.com/categories
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Nome da Categoria",
+    	"color": "#FFFFFF",
+    	"company_id": 2,
+    	"active": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication: {}
+metaSortKey: -1712211758985
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

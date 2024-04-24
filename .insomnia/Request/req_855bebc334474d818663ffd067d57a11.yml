@@ -1,0 +1,37 @@
+_id: req_855bebc334474d818663ffd067d57a11
+type: Request
+parentId: fld_00d5a47b38a0401798a6ef06b209acd1
+modified: 1712013521397
+created: 1712013421671
+url: https://vendi-api.onrender.com/customers
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": null,
+    	"company_id": 1,
+    	"name": "Novo cliente",
+    	"tax_number": "",
+    	"phone": "",
+    	"email": "",
+    	"observation": "",
+    	"address_id": null
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication: {}
+metaSortKey: -1712013421671
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

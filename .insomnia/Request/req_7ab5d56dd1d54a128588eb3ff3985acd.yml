@@ -1,0 +1,23 @@
+_id: req_7ab5d56dd1d54a128588eb3ff3985acd
+type: Request
+parentId: fld_00d5a47b38a0401798a6ef06b209acd1
+modified: 1712002705642
+created: 1712002687709
+url: https://vendi-api.onrender.com/customers
+name: get all
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication: {}
+metaSortKey: -1712002687709
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
